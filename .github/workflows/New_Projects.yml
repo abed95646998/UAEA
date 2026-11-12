@@ -7,9 +7,9 @@ on:
         description: "How many pages each parallel job scrapes"
         required: false
         default: "3"
-  schedule:
-    # Runs once a day — adjust to whenever you want "yesterday's" listings pulled.
-    - cron: "0 2 * * *"
+  # schedule:
+  #   # Runs once a day — adjust to whenever you want "yesterday's" listings pulled.
+  #   - cron: "0 2 * * *"
 
 jobs:
   detect-pages:
